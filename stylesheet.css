@@ -1,0 +1,72 @@
+  * {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    color: rgb(226, 106, 69);
+    line-height: 1.5em;
+    margin: 0;
+    padding: auto; 
+}
+
+header, footer {
+    text-align: right;
+    transform: none;
+    list-style-type: disc;
+    padding: 2em;  
+}
+
+article p, footer p, hr {
+    margin-top: 1em;
+}
+
+nav, footer {
+    font-size: 1em;
+}
+
+div#bio {
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    text-transform: none;
+    font-size: 5.0em;
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+footer ul {
+    margin-top: 2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a:link {
+   color: rgb(253, 100, 100); 
+}
+
+a:visited {
+    color: rgb(0, 156, 204);
+}
+
+a:hover {
+    color: rgb(255, 151, 147);
+}
+
+body {
+    background-image:none;
+    background-repeat: repeat-y;
+}
+
