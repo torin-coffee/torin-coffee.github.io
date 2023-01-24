@@ -29,9 +29,25 @@ div#bio {
 h1 {
     font-family: 'Barlow', sans-serif;
     text-transform: none;
-    font-size: 5.0em;
+    font-size: 3.0em;
     color: rgb(0, 0, 0);
     text-decoration: none; 
+}
+
+h2 {
+    font-family: 'Barlow',sans-serif;
+    text-transform: none;
+    font-size: 1.0em;
+    color: rgb(226, 106, 69);
+    text-decoration: none
+}
+
+h3 {
+    font-family: 'Barlow',sans-serif;
+    text-transform: none;
+    font-size: 1.0em;
+    color: rgb(226, 106, 69);
+    text-decoration: none
 }
 
 ul {
