@@ -31,6 +31,15 @@ nav, footer {
     font-size: 1em;
 }
 
+#footer {
+    background-image: url("images/footer_bkg.jpg");
+    background-repeat: repeat-x;
+    COLOR: "Red"
+    clear; both
+    COLOR:
+    height; 114px;
+}
+
 #wrapper {
     width: 80%;
     margin: auto;
@@ -147,16 +156,14 @@ div.textPad {
     width: 100%;
     display: flex;
     justify-content: space-between;
-/*    background-color: blue;*/
 }
 
-.flexContainer  div {
+.flexContainer > div {
     /*    background-color: white;*/
-        /* width: 30%;
-        padding: 1%; */
-    /*    border: 1px solid black;*/
+        width: 30%;
+        padding: 1%;
+        border: 0px solid black;
         background-color: rgba(237, 173, 138, 0.595)
-        ;
  }
 
  
