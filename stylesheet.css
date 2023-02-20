@@ -1,7 +1,7 @@
   * {
     font-family: 'Barlow', sans-serif;
     font-size: 1em;
-    color: rgb(226, 106, 69);
+    color: rgb(239, 146, 118);
     line-height: 1.5em;
     margin: 0;
     padding: 0; 
@@ -10,7 +10,7 @@
 
 
 body {
-    background-color: #ffc8a6;
+    background-color: #000000;
     background-repeat: initial;
     overflow: auto;
     position: relative;   
@@ -31,15 +31,6 @@ nav, footer {
     font-size: 1em;
 }
 
-#footer {
-    background-image: url("images/footer_bkg.jpg");
-    background-repeat: repeat-x;
-    COLOR: "Red"
-    clear; both
-    COLOR:
-    height; 114px;
-}
-
 #wrapper {
     width: 80%;
     margin: auto;
@@ -53,7 +44,7 @@ h1 {
     font-family: 'Barlow', sans-serif;
     text-transform: none;
     font-size: 3.0em;
-    color: rgb(0, 0, 0);
+    color: rgb(239, 146, 118);
     text-decoration: none; 
 }
 
@@ -61,7 +52,7 @@ h2 {
     font-family: 'Barlow',sans-serif;
     text-transform: none;
     font-size: 1.0em;
-    color: rgb(226, 106, 69);
+    color: rgb(239, 146, 118);
     text-decoration: none
 }
 
@@ -69,7 +60,7 @@ h3 {
     font-family: 'Barlow',sans-serif;
     text-transform: none;
     font-size: 1.0em;
-    color: rgb(226, 106, 69);
+    color: rgb(239, 146, 118);
     text-decoration: none
 }
 
@@ -88,14 +79,14 @@ footer ul {
 }
 
 img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 600px;
 }
 
 /* Link styles */
 
 a:link {
-   color: rgb(253, 100, 100); 
+   color:  rgb(239, 146, 118);
 }
 
 a:visited {
@@ -166,4 +157,9 @@ div.textPad {
         background-color: rgba(237, 173, 138, 0.595)
  }
 
- 
+
+ div.pizza_time>p {
+    height: auto;
+    width: 1200;
+   
+ }
