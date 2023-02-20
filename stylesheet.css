@@ -17,7 +17,7 @@ body {
 }
 
 header, footer {
-    text-align: left;
+    text-align: right;
     transform: none;
     list-style-type: disc;
     padding: 2em;  
@@ -34,6 +34,14 @@ nav, footer {
 #wrapper {
     width: 80%;
     margin: auto;
+}
+
+div#flexContainer {
+    width: 80%;
+    margin: auto;
+    padding: 3em;
+    position: relative;
+    align-content: center;
 }
 
 div#bio {
@@ -79,8 +87,13 @@ footer ul {
 }
 
 img {
-    width: auto;
-    height: 600px;
+    width: 100%;
+    height: auto;
+}
+
+div#textpad {
+    width: 300px;
+    height: auto;
 }
 
 /* Link styles */
@@ -153,8 +166,9 @@ div.textPad {
     /*    background-color: white;*/
         width: 30%;
         padding: 1%;
-        border: 0px solid black;
-        background-color: rgba(237, 173, 138, 0.595)
+        border: 0px solid rgb(255, 116, 116);
+        background-color: rgba(255, 147, 89, 0.508);
+        align-content: center;
  }
 
 
