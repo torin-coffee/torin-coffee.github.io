@@ -29,12 +29,25 @@ h1 {
     font-size: 4.0em;
     color: #ffb9a3;
     text-decoration: none; 
+    animation-name: title;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
+
+@keyframes title{
+    from {color: #000000;}
+    to {color: #ffb9a3}
+
+}
+
 
 h2 {
     font-family: 'Barlow',sans-serif;
     text-transform: none;
-    font-size: 1.0em;
+    font-size: 3.0em;
     color: #ffb9a3;
     text-decoration: none
 }
@@ -53,4 +66,15 @@ header, footer {
 
 nav {
     text-align: right;
+}
+
+
+div#poster {
+    transition: width 100%;  
+
+}
+
+div#poster:hover {
+    width: 20%;
+
 }
