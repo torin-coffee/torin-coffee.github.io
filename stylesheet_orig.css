@@ -1,0 +1,168 @@
+* {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    color: rgb(226, 106, 69);
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0; 
+}
+
+
+
+body {
+    background-color: #ffc8a6;
+    background-repeat: initial;
+    overflow: auto;
+    position: relative;   
+}
+
+header, footer {
+    text-align: left;
+    transform: none;
+    list-style-type: disc;
+    padding: 2em;  
+}
+
+article p, footer p, hr {
+    margin-top: 1em;
+}
+
+nav, footer {
+    font-size: 1em;
+
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+div#bio {
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    text-transform: none;
+    font-size: 3.0em;
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+
+h2 {
+    font-family: 'Barlow',sans-serif;
+    text-transform: none;
+    font-size: 1.0em;
+    color: rgb(226, 106, 69);
+    text-decoration: none
+}
+
+h3 {
+    font-family: 'Barlow',sans-serif;
+    text-transform: none;
+    font-size: 1.0em;
+    color: rgb(226, 106, 69);
+    text-decoration: none
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+footer ul {
+    margin-top: 2em;
+}
+
+.Image01 {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+/* Link styles */
+
+a:link {
+   color: rgb(253, 100, 100); 
+}
+
+a:visited {
+    color: rgb(0, 156, 204);
+}
+
+a:hover {
+    color: rgb(255, 151, 147);
+}
+
+/* Columns */
+
+.columns {float:right;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* End Columns CSS */
+
+div.expContainer {
+    font-size: .8em;
+}
+
+div.expContainer>h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+
+div.expContainer>p {
+    width: 50%;
+    padding-bottom: 2em;
+    font-size: 1.2em;
+}
+
+div.expRow {
+    margin-bottom: 2em;
+}
+
+div.textPad {
+    padding-right: 2em;
+}
+
+/* Flexbox */
+
+.flexContainer {
+    /* clear: right; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexContainer > div {
+    /*    background-color: white;*/
+        width: 30%;
+        padding: 1%;
+        border: 0px solid black;
+        background-color: rgba(237, 173, 138, 0.595)
+ }
+
+
+ 
